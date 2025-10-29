@@ -1,0 +1,91 @@
+mvn deploy:deploy-file \
+  -DgroupId=org.cmeng.test \
+  -DartifactId=dll_test \
+  -Dversion=0.0.1-SNAPSHOT \
+  -Dpackaging=dll \
+  -Dfile=./dll_test.dll \
+  -DrepositoryId=github_packages \
+  -Durl=https://maven.pkg.github.com/cmeng-talend/GithubPackagesTest
+
+
+mvn deploy:deploy-file \
+  -DgroupId=org.cmeng.test \
+  -DartifactId=bat_test \
+  -Dversion=0.0.1-SNAPSHOT \
+  -Dpackaging=bat \
+  -Dfile=./bat_test.bat \
+  -DrepositoryId=github_packages \
+  -Durl=https://maven.pkg.github.com/cmeng-talend/GithubPackagesTest
+
+
+
+mvn deploy:deploy-file \
+  -DgroupId=org.cmeng.test \
+  -DartifactId=exe_test \
+  -Dversion=0.0.1-SNAPSHOT \
+  -Dpackaging=exe \
+  -Dfile=./exe_test.exe \
+  -DrepositoryId=github_packages \
+  -Durl=https://maven.pkg.github.com/cmeng-talend/GithubPackagesTest
+
+
+
+mvn deploy:deploy-file \
+  -DgroupId=org.cmeng.test \
+  -DartifactId=sh_test \
+  -Dversion=0.0.1-SNAPSHOT \
+  -Dpackaging=sh \
+  -Dfile=./sh_test.sh \
+  -DrepositoryId=github_packages \
+  -Durl=https://maven.pkg.github.com/cmeng-talend/GithubPackagesTest
+
+
+
+mvn deploy:deploy-file \
+  -DgroupId=org.cmeng.test \
+  -DartifactId=so_test \
+  -Dversion=0.0.1-SNAPSHOT \
+  -Dpackaging=so \
+  -Dfile=./so_test.so \
+  -DrepositoryId=github_packages \
+  -Durl=https://maven.pkg.github.com/cmeng-talend/GithubPackagesTest
+
+
+
+
+mvn deploy:deploy-file \
+  -DgroupId=org.cmeng.test \
+  -DartifactId=zip_test \
+  -Dversion=0.0.1-SNAPSHOT \
+  -Dpackaging=zip \
+  -Dfile=./zip_test.zip \
+  -DrepositoryId=github_packages \
+  -Durl=https://maven.pkg.github.com/cmeng-talend/GithubPackagesTest
+
+
+
+
+
+mvn deploy:deploy-file \
+  -DgroupId=org.cmeng.test \
+  -DartifactId=json_test \
+  -Dversion=0.0.1 \
+  -Dpackaging=json \
+  -Dfile=./json_test.json \
+  -DrepositoryId=github_packages \
+  -Durl=https://maven.pkg.github.com/cmeng-talend/GithubPackagesTest
+
+
+
+
+
+mvn deploy:deploy-file \
+  -DgroupId=com.fasterxml.jackson.core \
+  -DartifactId=jackson-core \
+  -Dversion=2.18.5 \
+  -Dpackaging=jar \
+  -Dfile=./jackson-core-2.18.5.jar \
+  -DrepositoryId=github_packages \
+  -Durl=https://maven.pkg.github.com/cmeng-talend/GithubPackagesTest
+
+
